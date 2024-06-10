@@ -1,0 +1,10 @@
+{
+  "name": "Optima",
+  "short_name": "Optima",
+  "theme_color": "#f1dedd",
+  "background_color": "#F5F5F0",
+  "display": "standalone",
+  "scope": "./",
+  "start_url": "./",
+  "icons": []
+}
