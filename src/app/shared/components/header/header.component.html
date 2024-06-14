@@ -1,0 +1,26 @@
+<section class="app-header">
+  <div class="grid-container">
+    <div class="row">
+      <div class="col-xs-12">
+        <nav>
+          <ul>
+            <li><a href="">{{'header.nav.home' | translate}}</a></li>
+            <li><a href="">{{'header.nav.menu' | translate}}</a></li>
+            <li><a href="">{{'header.nav.story' | translate}}</a></li>
+            <li><a href="">{{'header.nav.contact' | translate}}</a></li>
+            <li>
+              <input type="search">
+            </li>
+            <select #langSelect (change)="onLangChange(langSelect.value)">
+              <option *ngFor="let lang of translate.getLangs()" [value]="lang"
+                [selected]="lang === translate.currentLang">
+                {{ lang }}
+              </option>
+            </select>
+          </ul>
+        </nav>
+        <ng-content></ng-content>
+      </div>
+    </div>
+  </div>
+</section>

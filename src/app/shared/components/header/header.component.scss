@@ -1,0 +1,35 @@
+.app-header {
+  padding: 3rem 1rem;
+  background-image: url('/assets/images/header-background.webp');
+
+  &>div {
+    &>div {
+      &>div {
+        &>nav {
+          &>ul {
+            display: flex;
+            gap: 2rem;
+            justify-content: flex-end;
+
+            &>li {
+              color: white;
+              text-transform: uppercase;
+
+              &>a {
+                text-decoration: none;
+
+                &:visited {
+                  color: white;
+                }
+
+                &:hover {
+                  text-decoration: underline;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
