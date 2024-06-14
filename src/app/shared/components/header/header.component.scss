@@ -1,6 +1,8 @@
 .app-header {
   padding: 3rem 1rem;
   background-image: url('/assets/images/header-background.webp');
+  background-size: cover;
+  background-color: saddlebrown;
 
   &>div {
     &>div {
