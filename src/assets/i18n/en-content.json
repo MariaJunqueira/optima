@@ -3,6 +3,13 @@
   "header.nav.menu":"Menu",
   "header.nav.story":"Our Story",
   "header.nav.contact":"Contact us",
+  "header.highlight.heading":"Italian Food",
+  "header.highlight.subtitle":"Subtitle",
+  "header.highlight.text":"English - Cat ipsum dolor sit amet, take a big fluffing ball of fur I like fish and make a weird face haha you hold me hooman i scratch. Nyaa nyaa.",
+  "header.highlight.button":"Read more",
   "home::main::heading": "Cats go for world domination meow in English",
-  "home::main::text": "Cat ipsum dolor sit amet, take a big fluffing ball of fur I like fish and make a weird face haha you hold me hooman i scratch. Nyaa nyaa."
+  "home::main::text": "Cat ipsum dolor sit amet, take a big fluffing ball of fur I like fish and make a weird face haha you hold me hooman i scratch. Nyaa nyaa.",
+  "post.discount.heading": "Cat ipsum dolor sit amet",
+  "post.discount.text": "Cat ipsum dolor sit amet, take a big fluffing ball of fur I like fish and make a weird face haha you hold me hooman i scratch. Nyaa nyaa.",
+  "post.discount.button": "Read more"
 }

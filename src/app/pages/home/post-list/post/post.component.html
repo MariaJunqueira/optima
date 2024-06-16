@@ -1,0 +1,8 @@
+<div class="app-post" [attr.variant]="postData.variant">
+  <img [src]="postData.img.url" [alt]="postData.img.alt">
+  <div>
+    <h3>{{postData.heading| translate}}</h3>
+    <p>{{postData.text| translate}}</p>
+    <a href="{{postData.button.text}}">{{postData.button.text | translate}}</a>
+  </div>
+</div>
