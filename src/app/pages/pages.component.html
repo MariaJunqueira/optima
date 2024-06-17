@@ -1,16 +1,7 @@
 <header>
-  <div class="grid-container">
-    <div class="row">
-      <div class="col-xs-12">
-        Header
-        <select #langSelect (change)="onLangChange(langSelect.value)">
-          <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">
-            {{ lang }}
-          </option>
-        </select>
-      </div>
-    </div>
-  </div>
+  <app-header>
+    <app-highlight></app-highlight>
+  </app-header>
 </header>
 <main>
   <router-outlet></router-outlet>
