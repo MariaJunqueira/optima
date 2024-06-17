@@ -5,80 +5,86 @@
   display: flex;
 
   &>div {
+
     // background-color: red;
-    flex: 1 1 50%;
-    padding: 1rem 2rem;
+    &:nth-of-type(1) {
+      flex: 1 0 55%;
+      padding: 1rem 2rem;
 
-    &>img {
-      width: 100px;
-      height: 100px;
-      margin-left: 2rem;
-    }
-
-    &>h1 {
-      // background-color: green;
-      font-family: "Reey Regular";
-      font-size: 5.6rem;
-      line-height: 2;
-      text-wrap: nowrap;
-      padding-bottom: 3rem;
-    }
-
-    &>p {
-      &:nth-of-type(1) {
-        font-size: 1.5rem;
-        text-transform: uppercase;
-        padding-bottom: 2rem;
-        font-style: italic;
+      &>img {
+        width: 100px;
+        height: 100px;
+        margin-left: 2rem;
       }
 
-      &:nth-of-type(2) {
-        font-size: 1.2rem;
-        padding-top: 2rem;
-        font-style: italic;
+      &>h1 {
+        // background-color: green;
+        font-family: "Reey Regular";
+        font-size: 4.6rem;
+        line-height: 1.5;
+        padding-bottom: 3rem;
+        // text-wrap: nowrap;
+      }
+
+      &>p {
+        &:nth-of-type(1) {
+          font-size: 1.5rem;
+          text-transform: uppercase;
+          padding-bottom: 2rem;
+          font-style: italic;
+        }
+
+        &:nth-of-type(2) {
+          font-size: 1.2rem;
+          padding-top: 2rem;
+          font-style: italic;
+        }
+      }
+
+      &>button {
+        background-color: var(--bg-secondary);
+        padding: .5rem 2rem;
+        border-radius: 2rem;
+        color: #1f242b;
+        font-weight: 600;
+        margin-bottom: 1rem;
       }
     }
 
-    &>button {
-      background-color: var(--bg-secondary);
-      padding: .5rem 2rem;
-      border-radius: 2rem;
-      color: #1f242b;
-      font-weight: 600;
-      margin-bottom: 1rem;
+    &:nth-of-type(2) {
+      position: relative;
+      flex-basis: 50%;
+      // display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      // padding: 4rem 3rem;
+      align-self: center;
+
+      &>img {
+        &:nth-of-type(1) {
+          width: 80%;
+        }
+
+        &:nth-of-type(2) {
+          width: 35%;
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          transform: translate(-25%, 75%);
+        }
+
+        &:nth-of-type(3) {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          transform: translate(40%, 50%);
+          width: 80%;
+        }
+      }
     }
   }
 
-  &>article {
-    position: relative;
-    flex: 1 1 50%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 4rem 3rem;
 
-    &>img {
-      &:nth-of-type(1) {
-        width: 100%;
-      }
-
-      &:nth-of-type(2) {
-        width: 30%;
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        transform: translateY(25%);
-      }
-
-      &:nth-of-type(3) {
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        transform: translate(40%, 50%);
-        width: 80%;
-      }
-    }
-  }
 }
 
 :host {
