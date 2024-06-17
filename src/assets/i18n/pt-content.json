@@ -1,4 +1,15 @@
 {
-  "home::main::heading": "Cats go for world domination meow em Português",
-  "home::main::text": "Cat ipsum dolor sit amet, take a big fluffing ball of fur I like fish and make a weird face haha you hold me hooman i scratch. Nyaa nyaa."
+  "header.nav.home":"Inicio",
+  "header.nav.menu":"Cardápio",
+  "header.nav.story":"Nossa história",
+  "header.nav.contact":"Contato",
+  "header.highlight.heading":"Comida Italiana",
+  "header.highlight.subtitle":"Sub título",
+  "header.highlight.text":"Português - Cat ipsum dolor sit amet, take a big fluffing ball of fur I like fish and make a weird face haha you hold me hooman i scratch. Nyaa nyaa.",
+  "header.highlight.button":"Leia mais",
+  "home::main::heading": "Português - Cats go for world domination meow",
+  "home::main::text": "Português - Cat ipsum dolor sit amet, take a big fluffing ball of fur I like fish and make a weird face haha you hold me hooman i scratch. Nyaa nyaa.",
+  "post.discount.heading": "Português - Cat ipsum dolor sit amet",
+  "post.discount.text": "Português - Cat ipsum dolor sit amet, take a big fluffing ball of fur I like fish and make a weird face haha you hold me hooman i scratch. Nyaa nyaa.",
+  "post.discount.button": "Saiba mais"
 }
