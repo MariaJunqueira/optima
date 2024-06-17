@@ -1,0 +1,47 @@
+ article {
+   background-color: #27292b;
+   color: white;
+   padding: 3rem;
+   display: flex;
+   flex-direction: column;
+
+   &>div {
+     &>div {
+       &>div {
+         &>div {
+           display: flex;
+           flex-direction: column;
+
+           &>h2 {
+             // background-color: blue;
+             font-family: "Reey Regular";
+             font-size: 4.6rem;
+             line-height: 1.5;
+             text-align: center;
+             padding-bottom: 2rem;
+           }
+
+           &>div {
+             display: flex;
+             padding: 2rem 3rem;
+
+             p {
+               flex: 1 1 50%;
+               padding: 0 2rem;
+             }
+           }
+
+           &>button {
+             background-color: var(--button-secondary-contrast);
+             font-size: 1.5rem;
+             padding: 1rem 3rem;
+             border-radius: 2rem;
+             color: var(--button-secondary);
+             font-weight: 600;
+             margin: 2rem auto;
+           }
+         }
+       }
+     }
+   }
+ }

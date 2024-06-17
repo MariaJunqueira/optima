@@ -1,0 +1,76 @@
+.app-list {
+  // background-color: orange;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+
+  &>div {
+    &>div {
+      &>div {
+        &>div {
+          display: flex;
+          flex-direction: column;
+
+          &>h2 {
+            // background-color: blue;
+            font-family: "Reey Regular";
+            font-size: 4.6rem;
+            line-height: 1.5;
+            text-align: center;
+            padding-bottom: 2rem;
+          }
+
+          &>p {
+            // background-color: green;
+            text-align: center;
+          }
+
+          &>ul {
+            // background-color: purple;
+            padding: 3rem 2rem;
+            display: flex;
+            flex-wrap: wrap;
+
+            &>li {
+              // background-color: goldenrod;
+              flex: 1 1 33%;
+              display: flex;
+              flex-direction: column;
+              padding: 0 2rem;
+
+              &>img {
+                width: 90%;
+              }
+
+              &>h3 {
+                font-size: 1.8rem;
+                padding-top: 1.5rem;
+                padding-left: 1.5rem;
+              }
+
+              &>p {
+                font-size: 1.5rem;
+                padding-top: 1.5rem;
+                padding-left: 1.5rem;
+              }
+            }
+          }
+
+          &>button {
+            background-color: var(--button-secondary);
+            font-size: 1.5rem;
+            padding: 1rem 3rem;
+            border-radius: 2rem;
+            color: var(--button-secondary-contrast);
+            font-weight: 600;
+            margin: 2rem auto;
+          }
+        }
+      }
+    }
+  }
+}
+
+:host {
+  display: block;
+}
