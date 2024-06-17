@@ -3,6 +3,10 @@
   gap: 2rem;
   align-items: center;
 
+  &>img {
+    width: 50%;
+  }
+
   &>div {
     display: flex;
     flex-direction: column;
