@@ -16,6 +16,10 @@
               text-decoration: none;
               color: var(--text-primary);
 
+              &:hover {
+                text-decoration: underline;
+              }
+
               &:active {
                 color: var(--text-primary);
               }
