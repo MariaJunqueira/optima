@@ -10,6 +10,17 @@
           display: flex;
           flex-direction: column;
           gap: .5rem;
+
+          &>li {
+            &>a {
+              text-decoration: none;
+              color: var(--text-primary);
+
+              &:active {
+                color: var(--text-primary);
+              }
+            }
+          }
         }
 
         &>p {
