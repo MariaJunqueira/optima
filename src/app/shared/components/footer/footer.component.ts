@@ -1,0 +1,23 @@
+import { CommonModule } from '@angular/common';
+import { Component } from '@angular/core';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
+
+import { CookieService } from '../../services/cookie/cookie.service';
+import { COOKIE_LANG } from '../../services/language/language.constant';
+
+@Component({
+  selector: 'app-footer',
+  standalone: true,
+  imports: [CommonModule, TranslateModule],
+  templateUrl: './footer.component.html',
+  styleUrl: './footer.component.scss'
+})
+export class FooterComponent {
+  constructor(public translate: TranslateService, private cookieService: CookieService) { }
+
+  onLangChange(lang: string) {
+    this.translate.use(lang);
+    this.cookieService.setCookie(COOKIE_LANG, lang, 360);
+  }
+
+}

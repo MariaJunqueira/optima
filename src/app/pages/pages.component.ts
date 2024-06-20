@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 
+import { FooterComponent } from '../shared/components/footer/footer.component';
 import { GridDebugComponent } from '../shared/components/grid-debug/grid-debug.component';
 import { HeaderComponent } from '../shared/components/header/header.component';
 import { HighlightComponent } from '../shared/components/highlight/highlight.component';
@@ -12,7 +13,7 @@ import { COOKIE_LANG } from '../shared/services/language/language.constant';
 @Component({
   selector: 'app-pages',
   standalone: true,
-  imports: [RouterModule, CommonModule, GridDebugComponent, HeaderComponent, HighlightComponent],
+  imports: [RouterModule, CommonModule, FooterComponent, GridDebugComponent, HeaderComponent, HighlightComponent],
   templateUrl: './pages.component.html',
   styleUrls: ['./pages.component.scss'],
 })
