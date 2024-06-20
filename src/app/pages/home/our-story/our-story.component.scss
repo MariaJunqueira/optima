@@ -64,6 +64,15 @@
                     padding-bottom: 2rem;
                   }
                 }
+
+                @media (max-width: 1023px) {
+                  flex-wrap: wrap;
+
+                  &>li {
+                    flex-basis: 100%;
+                    text-align: center;
+                  }
+                }
               }
             }
 

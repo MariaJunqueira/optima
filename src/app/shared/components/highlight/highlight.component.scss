@@ -75,16 +75,14 @@
 
         &:nth-of-type(3) {
           position: absolute;
-          left: 0;
+          right: 0;
           bottom: 0;
-          transform: translate(40%, 50%);
+          transform: translate(10%, 50%);
           width: 80%;
         }
       }
     }
   }
-
-
 }
 
 :host {

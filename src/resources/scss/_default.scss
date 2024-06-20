@@ -6,8 +6,8 @@ body {
   letter-spacing: 0;
   background-color: var(--bg-secondary);
 
-  @media only screen and (max-width: $size-screen-xs) {
-    font-size: $size-pe-95; // Validate this solution
+  @media only screen and (max-width: $size-screen-md) {
+    font-size: 14px;
   }
 
   @media only screen and (prefers-color-scheme: dark) {
