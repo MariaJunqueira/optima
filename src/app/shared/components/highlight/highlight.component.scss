@@ -1,23 +1,16 @@
 .app-highlight {
   // background-color: orange;
   color: white;
-  padding: 2rem 0;
+  padding: 3rem 0 2rem 0;
   display: flex;
 
-  &>div {
-
+  & > div {
     // background-color: red;
     &:nth-of-type(1) {
       flex: 1 0 55%;
       padding: 1rem 2rem;
 
-      &>img {
-        width: 100px;
-        height: 100px;
-        margin-left: 2rem;
-      }
-
-      &>h1 {
+      & > h1 {
         // background-color: green;
         font-family: "Reey Regular";
         font-size: 4.6rem;
@@ -26,7 +19,7 @@
         // text-wrap: nowrap;
       }
 
-      &>p {
+      & > p {
         &:nth-of-type(1) {
           font-size: 1.5rem;
           text-transform: uppercase;
@@ -41,13 +34,10 @@
         }
       }
 
-      &>button {
-        background-color: var(--bg-secondary);
-        padding: .5rem 2rem;
-        border-radius: 2rem;
-        color: #1f242b;
-        font-weight: 600;
-        margin-bottom: 1rem;
+      app-button {
+        padding-bottom: 1rem;
+        --button-secondary-contrast: #241f21;
+        --button-secondary: #ffffff;
       }
     }
 
@@ -60,7 +50,7 @@
       // padding: 4rem 3rem;
       align-self: center;
 
-      &>img {
+      & > img {
         &:nth-of-type(1) {
           width: 80%;
         }
