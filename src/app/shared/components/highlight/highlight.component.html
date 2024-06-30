@@ -1,15 +1,23 @@
 <section class="app-highlight">
-  <div>
-    <h1>{{'header.highlight.heading' | translate}}</h1>
-    <p>{{'header.highlight.subtitle' | translate}}</p>
-    <app-button>
-      {{'header.highlight.button' | translate}}
-    </app-button>
-    <p>{{'header.highlight.text' | translate}}</p>
-  </div>
-  <div>
-    <img src="/assets/images/highlight/main.webp" alt="Photo of a plate of pasta">
-    <img src="/assets/images/highlight/support.webp" alt="Photo of cup of sauce">
-    <img src="/assets/images/highlight/float.webp" alt="Photo of couple basil leaves">
+  <div class="grid-container">
+    <div class="row">
+      <div class="col-xs-5">
+        <div>
+          <h1>{{'header.highlight.heading' | translate}}</h1>
+          <p>{{'header.highlight.subtitle' | translate}}</p>
+          <app-button>
+            {{'header.highlight.button' | translate}}
+          </app-button>
+          <p>{{'header.highlight.text' | translate}}</p>
+        </div>
+      </div>
+      <div class="col-xs-offset-1 col-xs-6">
+        <div>
+          <img src="/assets/images/highlight/main.webp" alt="Photo of a plate of pasta">
+          <img src="/assets/images/highlight/support.webp" alt="Photo of cup of sauce">
+          <img src="/assets/images/highlight/float.webp" alt="Photo of couple basil leaves">
+        </div>
+      </div>
+    </div>
   </div>
 </section>

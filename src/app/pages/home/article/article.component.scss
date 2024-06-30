@@ -1,25 +1,36 @@
 article {
   background-color: #27292b;
   color: white;
-  padding: 3rem 0;
+  padding: 4rem 0 3rem 0;
   display: flex;
   flex-direction: column;
 
   & > div {
     & > div {
       & > div {
+        & > h2 {
+          // background-color: blue;
+          font-family: "Reey Regular";
+          font-size: 4.6rem;
+          line-height: 2;
+          text-align: center;
+          padding-bottom: 4rem;
+        }
+
+        &:last-child {
+          display: flex;
+          justify-content: center;
+          padding-top: 3rem;
+
+          & > app-button {
+            --button-secondary-contrast: #241f21;
+            --button-secondary: #ffffff;
+          }
+        }
+
         & > div {
           display: flex;
           flex-direction: column;
-
-          & > h2 {
-            // background-color: blue;
-            font-family: "Reey Regular";
-            font-size: 4.6rem;
-            line-height: 1.5;
-            text-align: center;
-            padding-bottom: 4rem;
-          }
 
           & > div {
             display: flex;
@@ -29,16 +40,6 @@ article {
               flex: 1 1 50%;
               padding: 0 2rem;
             }
-          }
-
-          & > button {
-            background-color: var(--button-secondary-contrast);
-            font-size: 1.5rem;
-            padding: 1rem 3rem;
-            border-radius: 2rem;
-            color: var(--button-secondary);
-            font-weight: 600;
-            margin: 2rem auto;
           }
         }
       }

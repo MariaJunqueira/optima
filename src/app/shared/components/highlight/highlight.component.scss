@@ -1,74 +1,74 @@
 .app-highlight {
   // background-color: orange;
   color: white;
-  padding: 3rem 0 2rem 0;
+  padding: 6.5rem 0 3rem 0;
   display: flex;
 
   & > div {
-    // background-color: red;
-    &:nth-of-type(1) {
-      flex: 1 0 55%;
-      padding: 1rem 2rem;
-
-      & > h1 {
-        // background-color: green;
-        font-family: "Reey Regular";
-        font-size: 4.6rem;
-        line-height: 1.5;
-        padding-bottom: 3rem;
-        // text-wrap: nowrap;
-      }
-
-      & > p {
+    & > div {
+      & > div {
         &:nth-of-type(1) {
-          font-size: 1.5rem;
-          text-transform: uppercase;
-          padding-bottom: 2rem;
-          font-style: italic;
+          display: flex;
+          align-items: center;
+          & > div {
+            // background-color: green;
+            & > h1 {
+              font-family: "Reey Regular";
+              font-size: 4.6rem;
+              line-height: 2;
+              padding-bottom: 3rem;
+              // text-wrap: nowrap;
+            }
+
+            & > p {
+              &:nth-of-type(1) {
+                font-size: 1.5rem;
+                text-transform: uppercase;
+                padding-bottom: 2rem;
+                font-style: italic;
+              }
+
+              &:nth-of-type(2) {
+                font-size: 1.2rem;
+                padding-top: 2rem;
+                font-style: italic;
+              }
+            }
+
+            & > app-button {
+              padding-bottom: 1rem;
+              --button-secondary-contrast: #241f21;
+              --button-secondary: #ffffff;
+            }
+          }
         }
 
         &:nth-of-type(2) {
-          font-size: 1.2rem;
-          padding-top: 2rem;
-          font-style: italic;
-        }
-      }
+          & > div {
+            position: relative;
 
-      app-button {
-        padding-bottom: 1rem;
-        --button-secondary-contrast: #241f21;
-        --button-secondary: #ffffff;
-      }
-    }
+            & > img {
+              &:nth-of-type(1) {
+                width: 80%;
+              }
 
-    &:nth-of-type(2) {
-      position: relative;
-      flex-basis: 50%;
-      // display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      // padding: 4rem 3rem;
-      align-self: center;
+              &:nth-of-type(2) {
+                width: 35%;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                transform: translate(-50%, 50%);
+              }
 
-      & > img {
-        &:nth-of-type(1) {
-          width: 80%;
-        }
-
-        &:nth-of-type(2) {
-          width: 35%;
-          position: absolute;
-          left: 0;
-          bottom: 0;
-          transform: translate(-25%, 75%);
-        }
-
-        &:nth-of-type(3) {
-          position: absolute;
-          right: 0;
-          bottom: 0;
-          transform: translate(10%, 50%);
-          width: 80%;
+              &:nth-of-type(3) {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                transform: translate(0%, 60%);
+                width: 80%;
+              }
+            }
+          }
         }
       }
     }

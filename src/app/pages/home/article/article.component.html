@@ -2,14 +2,16 @@
   <div class="grid-container">
     <div class="row">
       <div class="col-xs-12">
-        <div>
-          <h2>{{'home::main::heading' | translate}}</h2>
-          <div>
-            <p>{{'home::main::text' | translate}} {{'home::main::text' | translate}}</p>
-            <p>{{'home::main::text' | translate}}{{'home::main::text' | translate}}</p>
-          </div>
-          <button>Show more</button>
-        </div>
+        <h2>{{'home::main::heading' | translate}}</h2>
+      </div>
+      <div class="col-xs-offset-1 col-xs-5">
+        <p>{{'home::main::text' | translate}} {{'home::main::text' | translate}}</p>
+      </div>
+      <div class="col-xs-5">
+        <p>{{'home::main::text' | translate}}{{'home::main::text' | translate}}</p>
+      </div>
+      <div class="col-xs-12">
+        <app-button>Show more</app-button>
       </div>
     </div>
   </div>
