@@ -1,18 +1,18 @@
 .app-footer {
   background-color: var(--bg-secondary);
-  padding: 3rem 0;
+  padding: 20rem 0;
 
-  &>div {
-    &>div {
-      &>div {
-        &>ul {
+  & > div {
+    & > div {
+      & > div {
+        & > ul {
           padding-top: 1rem;
           display: flex;
           flex-direction: column;
-          gap: .5rem;
+          gap: 0.5rem;
 
-          &>li {
-            &>a {
+          & > li {
+            & > a {
               text-decoration: none;
               color: var(--text-primary);
 
@@ -27,12 +27,12 @@
           }
         }
 
-        &>p {
+        & > p {
           padding-top: 1rem;
         }
 
-        @media(max-width: 1024px) {
-          &>h4 {
+        @media (max-width: 1024px) {
+          & > h4 {
             margin-top: 2rem;
           }
         }
